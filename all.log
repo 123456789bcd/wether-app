@@ -1,0 +1,16 @@
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T17:52:08.861Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T17:52:08.863Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T17:52:08.865Z'
+}

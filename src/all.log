@@ -1,0 +1,240 @@
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:52:07.982Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:52:07.984Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:52:07.984Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:52:09.088Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:52:09.088Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:52:09.089Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:52:41.542Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:52:41.542Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:52:41.542Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:52:52.869Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:52:52.870Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:52:52.872Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:52:53.377Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:52:53.378Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:52:53.379Z'
+}
+{
+  coord: { lon: 73.8553, lat: 18.5196 },
+  weather: [ { id: 800, main: 'Clear', description: 'clear sky', icon: '01n' } ],
+  base: 'stations',
+  main: {
+    temp: 25.18,
+    feels_like: 25.79,
+    temp_min: 25.18,
+    temp_max: 25.18,
+    pressure: 1006,
+    humidity: 78,
+    sea_level: 1006,
+    grnd_level: 945
+  },
+  visibility: 10000,
+  wind: { speed: 6.23, deg: 264, gust: 11.62 },
+  clouds: { all: 2 },
+  dt: 1653238147,
+  sys: { country: 'IN', sunrise: 1653179344, sunset: 1653226420 },
+  timezone: 19800,
+  id: 1259229,
+  name: 'Pune',
+  cod: 200,
+  level: 'info',
+  message: 'data',
+  timestamp: '2022-05-22T16:53:26.093Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:53:26.094Z'
+}
+{
+  coord: { lon: 73.8553, lat: 18.5196 },
+  weather: [ { id: 800, main: 'Clear', description: 'clear sky', icon: '01n' } ],
+  base: 'stations',
+  main: {
+    temp: 25.18,
+    feels_like: 25.79,
+    temp_min: 25.18,
+    temp_max: 25.18,
+    pressure: 1006,
+    humidity: 78,
+    sea_level: 1006,
+    grnd_level: 945
+  },
+  visibility: 10000,
+  wind: { speed: 6.23, deg: 264, gust: 11.62 },
+  clouds: { all: 2 },
+  dt: 1653238147,
+  sys: { country: 'IN', sunrise: 1653179344, sunset: 1653226420 },
+  timezone: 19800,
+  id: 1259229,
+  name: 'Pune',
+  cod: 200,
+  level: 'info',
+  message: 'data',
+  timestamp: '2022-05-22T16:53:26.981Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:53:26.982Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:53:31.686Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:53:31.687Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:53:31.688Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:53:38.078Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:53:38.078Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:53:38.079Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T16:53:38.251Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T16:53:38.251Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T16:53:38.252Z'
+}
+{
+  cod: '400',
+  message: 'data Nothing to geocode',
+  level: 'info',
+  timestamp: '2022-05-22T17:35:56.802Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T17:35:56.804Z'
+}
+{
+  level: 'error',
+  message: 'err',
+  timestamp: '2022-05-22T17:35:56.805Z'
+}
+{
+  coord: { lon: 73.8553, lat: 18.5196 },
+  weather: [ { id: 800, main: 'Clear', description: 'clear sky', icon: '01n' } ],
+  base: 'stations',
+  main: {
+    temp: 25.18,
+    feels_like: 25.79,
+    temp_min: 25.18,
+    temp_max: 25.18,
+    pressure: 1006,
+    humidity: 78,
+    sea_level: 1006,
+    grnd_level: 945
+  },
+  visibility: 10000,
+  wind: { speed: 6.23, deg: 264, gust: 11.62 },
+  clouds: { all: 2 },
+  dt: 1653240185,
+  sys: { country: 'IN', sunrise: 1653179344, sunset: 1653226420 },
+  timezone: 19800,
+  id: 1259229,
+  name: 'Pune',
+  cod: 200,
+  level: 'info',
+  message: 'data',
+  timestamp: '2022-05-22T17:36:06.571Z'
+}
+{
+  level: 'info',
+  message: 'city',
+  timestamp: '2022-05-22T17:36:06.572Z'
+}
