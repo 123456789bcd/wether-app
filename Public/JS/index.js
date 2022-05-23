@@ -20,6 +20,7 @@ button.addEventListener("click", () => {
         }).catch((err) => {
 
         })
+        // document.location.reload()
 
 
 })
@@ -40,21 +41,36 @@ function showData(res) {
 
     if (res.message) {
         err.innerHTML = res.message
+        cityName.innerHTML = ''
+        wetherDesc.innerHTML = ''
+        wicon.setAttribute("src", '')
+        minTemp.innerHTML = ''
+        maxTemp.innerHTML = ''
+        windSpeed.innerHTML = ''
+        humidity.innerHTML = ''
+        const weather = ''
+
+
+    } else {
+        err.innerHTML = ''
+
+        const iconCode = res.weather[0].icon
+        const iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+
+
+        cityName.innerHTML = `City : ${res.name}`
+        wetherDesc.innerHTML = `${res.weather[0].main}`
+        wicon.setAttribute("src", iconUrl)
+        minTemp.innerHTML = `Min Temperature =  ${res.main.temp_min}&deg C  `
+        maxTemp.innerHTML = ` ${res.main.temp_max}&deg C`
+        windSpeed.innerHTML = `Wind Speed = ${res.wind.speed }`
+        humidity.innerHTML = `Humidity =  ${res.main.humidity} `
+
+        const weather = res.weather[0].main
+
+
     }
 
-    const iconCode = res.weather[0].icon
-    const iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
-
-
-    cityName.innerHTML = `City : ${res.name}`
-    wetherDesc.innerHTML = `${res.weather[0].main}`
-    wicon.setAttribute("src", iconUrl)
-    minTemp.innerHTML = `Min Temperature =  ${res.main.temp_min}&deg C  `
-    maxTemp.innerHTML = ` ${res.main.temp_max}&deg C`
-    windSpeed.innerHTML = `Wind Speed = ${res.wind.speed }`
-    humidity.innerHTML = `Humidity =  ${res.main.humidity} `
-
-    const weather = res.weather[0].main
 
 
 }
