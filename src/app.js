@@ -3,6 +3,8 @@ const app = express()
 const path = require("path")
 const weatherapi = require("../weather/weatherapi")
 
+const port = process.env.PORT || 4000
+
 //Ipmortant 
 app.use(express.json())
 
@@ -16,8 +18,8 @@ app.post('/search', weatherapi)
 
 
 
-app.listen(6000, () => {
-    console.log('server is running on port 6000');
+app.listen(port, () => {
+    console.log('server is running on port 4000');
 })
 
 
